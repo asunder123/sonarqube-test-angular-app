@@ -61,13 +61,13 @@
           <span [hidden]="!canModify">
           <a class="btn btn-sm btn-outline-secondary"
              [routerLink]="['/editor', article.slug]">
-            <i class="ion-edit"></i> Edit Article
+            <em class="ion-edit"></em> Edit Article
           </a>
 
           <button class="btn btn-sm btn-outline-danger"
             [ngClass]="{disabled: isDeleting}"
             (click)="deleteArticle()">
-            <i class="ion-trash-a"></i> Delete Article
+            <em class="ion-trash-a"></em> Delete Article
           </button>
         </span>
 
@@ -94,6 +94,7 @@
           <app-list-errors [errors]="commentFormErrors"></app-list-errors>
           <form class="card comment-form" (ngSubmit)="addComment()">
             <fieldset [disabled]="isSubmitting">
+              <legend>Submitting</legend>
               <div class="card-block">
                 <textarea class="form-control"
                   placeholder="Write a comment..."
@@ -102,7 +103,8 @@
                 ></textarea>
               </div>
               <div class="card-footer">
-                <img [src]="currentUser.image" class="comment-author-img" />
+                <img [src]="currentUser.image" class="comment-author-img" alt="CurrentUser" />
+                
                 <button class="btn btn-sm btn-primary" type="submit">
                  Post Comment
                 </button>

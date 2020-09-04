@@ -1,6 +1,3 @@
-import { ModuleWithProviders, NgModule } from '@angular/core';
-import { RouterModule } from '@angular/router';
-
 import { ArticleComponent } from './article.component';
 import { ArticleCommentComponent } from './article-comment.component';
 import { ArticleResolver } from './article-resolver.service';

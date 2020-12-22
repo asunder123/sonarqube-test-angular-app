@@ -10,14 +10,14 @@
     "@angular-devkit/core" "7.3.2"
     rxjs "6.3.3"
 
-"@angular-devkit/build-angular@~0.13.0":
-  version "0.13.1"
-  resolved "https://registry.yarnpkg.com/@angular-devkit/build-angular/-/build-angular-0.13.1.tgz#369febda48dd40e47a4f0077064e792612a8e1c1"
+"@angular-devkit/build-angular@~0.13.2":
+  version "0.13.2"
+  resolved "https://registry.yarnpkg.com/@angular-devkit/build-angular/-/build-angular-0.13.2.tgz#369febda48dd40e47a4f0077064e792612a8e1c1"
   integrity sha512-vkKwMVQ+NNCcVR3HFMffS+Mq4b2afXeUjI+02N38hBuFTppnC83uivUB6Uu2NUk5NTSQA4BnJlG5CbMs6N4QYg==
   dependencies:
-    "@angular-devkit/architect" "0.13.1"
-    "@angular-devkit/build-optimizer" "0.13.1"
-    "@angular-devkit/build-webpack" "0.13.1"
+    "@angular-devkit/architect" "0.13.2"
+    "@angular-devkit/build-optimizer" "0.13.2"
+    "@angular-devkit/build-webpack" "0.13.2"
     "@angular-devkit/core" "7.3.1"
     "@ngtools/webpack" "7.3.1"
     ajv "6.7.0"

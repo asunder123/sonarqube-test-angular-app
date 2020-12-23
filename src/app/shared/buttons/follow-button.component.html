@@ -4,7 +4,7 @@
                'btn-outline-secondary': !profile.following,
                'btn-secondary': profile.following }"
   (click)="toggleFollowing()">
-  <i class="ion-plus-round"></i>
+  <em class="ion-plus-round"></em>
   &nbsp;
   {{ profile.following ? 'Unfollow' : 'Follow' }} {{ profile.username }}
 </button>

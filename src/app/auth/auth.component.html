@@ -11,6 +11,7 @@
         <app-list-errors [errors]="errors"></app-list-errors>
         <form [formGroup]="authForm" (ngSubmit)="submitForm()">
           <fieldset [disabled]="isSubmitting">
+            <legend></legend>
             <fieldset class="form-group">
               <input
                 formControlName="username"
